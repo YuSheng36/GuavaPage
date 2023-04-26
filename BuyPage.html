@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購買頁面</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <script>
+        function success(){
+            alert("等待賣家的回覆!");
+        }
+    </script>
+</head>
+<body>
+    <div class="allform">
+        <h1 class="titlefont">詹氏芭樂購買清單</h1>
+        <div class="content">
+            <div class="name">
+                <span>姓名:</span>
+                <input type="text">
+            </div>
+            <div class="sex">
+                <span>性別: 男<input type="radio" name="sex" value=""></span>
+                <span>女<input type="radio" name="sex" value=""></span>
+            </div>
+            <div class="carryitem">
+                <span>提貨日期:</span>
+                <input type="date">
+            </div>
+            <div class="deal">
+                <span>交易方式:</span>
+                <select>
+                    <option>面交</option>
+                    <option>市場買賣</option>
+                    <option>7-11取貨</option>
+                </select>
+            </div>
+            <div class="mount">
+                <span>購買數量:</span>
+                <input type="text">
+            </div>
+            <div class="payway">
+                <span>付款方式:</span>
+                <select>
+                    <option>現金支付</option>
+                    <option>信用卡支付</option>
+                    <option>行動支付</option>
+                    <option>轉帳支付</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <a class="confirm" onclick="success()" href="exam.html" target="_blank">確認送出</a>
+</body>
+</html>
